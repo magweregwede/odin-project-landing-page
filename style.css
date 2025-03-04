@@ -74,6 +74,14 @@ ul {
 .sec1 {
     display: flex;
     margin-top: 0;
+    padding-bottom: 50px;
+    justify-content: flex-start;
+}
+
+.sec1a {
+    flex-wrap: wrap;
+    flex-basis: 600px;
+    align-self: center;
 }
 
 .sec2 {
@@ -116,6 +124,7 @@ ul {
     gap: 16px;
     padding: 15px 40px;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .signup {
@@ -153,5 +162,13 @@ button {
 
 #placeholder {
     background-color: grey;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
