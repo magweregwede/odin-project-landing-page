@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+
+.header, .sec1, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sec4, button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+#sec2header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.sec3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    
+}
+
+ul {
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.sec1 {
+    display: flex;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    outline: 2px;
+    height: 100px;
+    width: 100px;
+    outline-style: solid;
+    border-radius: 15px;
+    outline-color: #3882f6;
+    /* flex-shrink: 0; */
+}
+
+.sec2boxes {
+    display: flex;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#qoute-author {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 15px 40px;
+    border-radius: 15px;
+}
+
+.signup {
+    align-self: flex-start;
+    border-radius: 15px;
+
+    }
+
+.footer {
+    /* align-self: center; */
+    text-align: center;
+    margin-top: auto;
+    padding: 0 100;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 16px;
+}
+
+#call {
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: 2px solid #f9faf8;
+}
+
+#placeholder {
+    background-color: grey;
+}
+
